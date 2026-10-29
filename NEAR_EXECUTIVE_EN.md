@@ -1,0 +1,5 @@
+# Executive summary — NEAR Intents case study
+
+This investigation verifies the **first leg** of the late September–early October 2026 NEAR Intents incident on BNB Smart Chain. Seven successful USDT transfers from a publicly identified vault to one receiving wallet were checked against mainnet JSON-RPC transaction receipts and `Transfer` logs. Two small test withdrawals totalled **21 USDT**; five major withdrawals totalled **3,865,000 USDT**. The seven transfers total **3,865,021 USDT**.
+
+The evidence supports the vault-to-wallet transfer amounts. It does not independently establish the wallet controller's real-world identity, the vulnerability's root cause, or the later cross-chain destination of the funds. [Bitquery's investigation](https://www.bitquery.io/investigations/near-intents-hack) describes subsequent swaps and Bitcoin flows; those remain externally sourced findings in this portfolio project. The incident concerned the NEAR Intents service, and should not be described as a compromise of the NEAR blockchain itself.
